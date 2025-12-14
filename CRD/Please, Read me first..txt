@@ -1,0 +1,1 @@
+IMPORTANT: To view the extracted datas in excel format, go to the directory/ folder where this CRD file is located and then click the generated excell file
