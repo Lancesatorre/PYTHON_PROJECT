@@ -662,8 +662,8 @@ def display_results_as_table(results):
 
 def main():
     # ===== CONFIGURATION =====
-    MAX_DATASETS = 2                     # None = scan ALL datasets with pagination
-    MAX_REACTIONS_PER_DATASET = 10        # None = scan ALL reactions per dataset
+    MAX_DATASETS = None                     # None = scan ALL datasets with pagination
+    MAX_REACTIONS_PER_DATASET = None        # None = scan ALL reactions per dataset
     MAX_WORKERS_PER_DATASET = 3             # Parallel workers (1-3 recommended)
     PAGINATION_SIZE = 100                   # Items per page (10, 25, 50, or 100) ONLY
     # ========================= 
